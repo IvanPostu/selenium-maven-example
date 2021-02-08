@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class WebDriverConfig {
@@ -25,7 +25,7 @@ public class WebDriverConfig {
 
     @BeforeEach
     public void createDriver() {
-        driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
+        driver = new RemoteWebDriver(service.getUrl(), new ChromeOptions());
     }
 
 

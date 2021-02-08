@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ivan.app</groupId>
-  <artifactId>selenium_maven_example</artifactId>
+  <artifactId>selenium_maven_github</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>selenium_maven_example</name>
+  <name>selenium_maven_github</name>
 
   <url>https://github.com/IvanPostu</url>
 
